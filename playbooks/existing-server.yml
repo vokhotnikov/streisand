@@ -7,7 +7,7 @@
 - include: python.yml
 
 # Try and detect the remote server's provider & apply required workarounds
-- include: provider-detect.yml
+#- include: provider-detect.yml
 
 - name: Prepare the remote server for Streisand
 # =========================================
