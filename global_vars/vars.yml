@@ -6,7 +6,7 @@ upstream_dns_servers:
 streisand_client_test: no
 
 streisand_shadowsocks_enabled: yes
-streisand_wireguard_enabled: yes
+streisand_wireguard_enabled: no
 streisand_openvpn_enabled: yes
 streisand_stunnel_enabled: yes
 streisand_tor_enabled: yes
