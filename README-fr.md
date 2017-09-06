@@ -1,7 +1,7 @@
 ![Streisand Logo](https://raw.githubusercontent.com/jlund/streisand/master/logo.jpg "Automate the effect")
 
 - - -
-[English](README.md), [Français](README-fr.md), [简体中文](README-chs.md) | [Miroir](https://area51.threeletter.agency/mirrors/streisand) | [Miroir 2](https://gitlab.com/alimakki/streisand)
+[English](README.md), [Français](README-fr.md), [简体中文](README-chs.md), [Русский](README-ru.md) | [Miroir](https://area51.threeletter.agency/mirrors/streisand) | [Miroir 2](https://gitlab.com/alimakki/streisand)
 - - -
 
 [![Build Status](https://travis-ci.org/jlund/streisand.svg?branch=master)](https://travis-ci.org/jlund/streisand)
@@ -46,7 +46,6 @@ Services fournis
 * [Monit](https://mmonit.com/monit/)
   * Surveille la santé du processus et redémarre automatiquement les services dans le cas improbable où ils se plante ou ne répondent pas.
 * [OpenSSH](http://www.openssh.com/)
-  * Un utilisateur de transfert non privilégié et une paire paire de clés asymétriques SSH sont générés pour les fonctionnalités [sshuttle](https://github.com/sshuttle/sshuttle) et SOCKS.
   * Les tunnels Windows et Androïde SSH sont également pris en charge et une copie des clés sont exportée dans le format .ppk que PuTTY requiert.
   * [Tinyproxy](https://banu.com/tinyproxy/) est installé et lié à localhost. Il peut être accédé sur un tunnel SSH par des programmes qui ne prennent pas en charge nativement SOCKS et qui nécessitent un proxy HTTP, comme Twitter pour Androïde.
 * [OpenConnect](http://www.infradead.org/ocserv/index.html)/[Cisco AnyConnect](http://www.cisco.com/c/en/us/products/security/anyconnect-secure-mobility-client/index.html)

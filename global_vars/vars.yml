@@ -5,13 +5,16 @@ upstream_dns_servers:
 
 streisand_client_test: no
 
-streisand_shadowsocks_enabled: no
-streisand_wireguard_enabled: no
-streisand_openvpn_enabled: yes
-streisand_stunnel_enabled: no
-streisand_tor_enabled: yes
+streisand_l2tp_enabled: yes
 streisand_openconnect_enabled: yes
-streisand_tinyproxy_enabled: no
+streisand_openvpn_enabled: yes
+streisand_shadowsocks_enabled: no
 streisand_ssh_forward_enabled: no
+streisand_stunnel_enabled: no
+streisand_tinyproxy_enabled: no
+streisand_tor_enabled: yes
+streisand_wireguard_enabled: no
+
+vpn_clients: 9
 
 gpg_key_server_address: "x-hkp://pool.sks-keyservers.net"
